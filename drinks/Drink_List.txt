@@ -1,0 +1,14 @@
+GPIO 0 - Pump 1 : Vodka 
+GPIO 1 - Pump 2 : Schnaps à la pêche
+GPIO 2 - Pump 3 : Jus d'orange
+GPIO 3 - Pump 4 : Jus d'Ananas
+GPIO 4 - Pump 5 : Jus de Cranberry
+GPIO 5 - Pump 6 : Jus de Pamplemousse
+GPIO 6 - Pump 7 : 
+GPIO 7 - Pump 8 : 
+
+exec("gpio write 1 0"); = pump on 
+sleep (5); = pump on for (secs)
+exec("gpio write 5 1"); pump off
+So pump turns off after seconds
+1 sec = 2.17ml
